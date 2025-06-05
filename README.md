@@ -1,12 +1,63 @@
-# React + Vite
+````markdown
+# Recipe AI App 🍳
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React app that suggests recipes based on your available ingredients using Google's Gemini AI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Add ingredients you have at home.
+- Get AI-powered recipe suggestions.
+- Clean, responsive interface.
+- Fast performance with Vite.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Setup
+
+### 1. Clone and install
+
+```bash
+git clone https://github.com/YOUR_USERNAME/recipe-ai-app.git
+cd recipe-ai-app
+npm install
+```
+````
+
+### 2. Add your API key
+
+- Get your API key from **Google AI Studio**.
+- Create a `.env` file in the project root and add the following:
+
+```env
+VITE_GEMINI_API_KEY=your_api_key_here
+```
+
+### 3. Run the app
+
+```bash
+npm run dev
+```
+
+---
+
+## How to Use
+
+1. Add your available ingredients.
+2. Click **"Get a Recipe"**.
+3. Enjoy your AI-generated recipe!
+
+---
+
+## Built With
+
+- **React** + **Vite**
+- **Google Gemini AI API**
+- **CSS3**
+
+---
+
+```
+
+```
