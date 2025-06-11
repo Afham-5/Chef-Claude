@@ -1,7 +1,7 @@
 export default function IngredientsList(props) {
   return (
     <section>
-      <h2>Ingredients on hand:</h2>
+      {props.length > 0 ? <h2>Ingredients on hand:</h2> : null}
       <ul className="ingredients-list" aria-live="polite">
         {props.items}
       </ul>
