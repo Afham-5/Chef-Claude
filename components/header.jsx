@@ -1,4 +1,4 @@
-import img from "../images/chef-claude-icon.png";
+const img = "/chef-claude-icon.png";
 export default function Header() {
   return (
     <>
